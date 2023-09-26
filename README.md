@@ -10,6 +10,16 @@ Pelorio Architecture Guide
 ```
 assets/
 docs/
+| └── about/
+| └── assets/
+| └── design/
+| └── guides/
+|       └── guides.md
+|       └── dev-guides.md
+|       └── prod-guides.md
+|       └── readme.md
+| └── project/
+| └── spec/
 scripts/
 app-main/
 |  └── app-api-gateway/
@@ -18,7 +28,10 @@ app-main/
 |           └── Plugins
 |  └── app-modules/
 |           └── account-modules/
-|                      └── S1 (Specialization per domain)
+|                      └── S1 (Service Specialization per domain)
+|                           └── Datastore
+|                           └── Filter logic
+|                           └── 
 |                      └── S2
 |                      └── S3
 |           └── analytics-modules/
