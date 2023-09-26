@@ -60,3 +60,5 @@ app-main/
 |  └── app-ios/  
 
 ```
+
+<h5 align="center"> It starts as a modular monolith with expansion in mind and easy refactoring, the idea behind this structure is that you start big but you can also split per module and UI, so most features will need two folders for the code to not only be testable but also runtime tested since you only need the basic configs for either frontend & backend  </h5>
