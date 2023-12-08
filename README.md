@@ -13,9 +13,15 @@ docs/
 | └── about/
 | └── assets/
 | └── design/
+|       └── perFeature.md
+|       └── perModule.md
+|       └── perComponent.md
+|       └── perUIComponent.md
+|       └── genericOverview.md
 | └── guides/
 |       └── guides.md
 |       └── dev-guides.md
+|       └── stage-guides.md
 |       └── prod-guides.md
 |       └── readme.md
 | └── project/
@@ -31,7 +37,6 @@ app-main/
 |                      └── S1 (Service Specialization per domain)
 |                           └── data-store/
 |                           └── filter-logic/
-|
 |                      └── S2/
 |                      └── S3/
 |           └── analytics-modules/
@@ -46,20 +51,21 @@ app-main/
 |         └── app-auth/
 |                └── S1/
 |                     └── signin/
-|                            └── SSO/
+|                           └── coreSignin
+|                           └── SSO/
 |                                 └── facebook-sso/
 |                                 └── google-sso/
 |                                 └── github-sso/
 |                     └── signup/
-|                            └── SSO/
-|                                 └── facebook-sso/
-|                                 └── google-sso/
-|                                 └── github-sso/
+|                           └── coreSignup
+|                           └── SSO/
+|                                └── facebook-sso/
+|                                └── google-sso/
+|                                └── github-sso/
 |                └── S2/
 |                └── S3/
 |         └── app-dashboard/
 |         └── app-analytics/
-|
 |  └── app-android/
 |  └── app-ios/  
 
