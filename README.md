@@ -35,14 +35,28 @@ app-main/
 |  └── app-modules/
 |           └── account-modules/
 |                      └── S1 (Service Specialization per domain)
-|                           └── data-store/
+|                           └── datastore/
 |                           └── filter-logic/
 |                      └── S2/
 |                      └── S3/
 |           └── analytics-modules/
-|                      └── S1/
-|                      └── S2/
-|                      └── S3/
+|                        └──Controller1/
+|                        └──Controller2/
+|                        └──Controller3/
+|                        └── S1/
+|                        └── S2/
+|                        └── S3/
+|                        └──User-analytics
+|                               └──S4/
+|                               └──Controller4/
+|                               └──Datastore/
+|                               └──User-Logger-agent/
+|           └── logger-modules/
+|                     └──User-Logger
+|                            └── S1/
+|                            └── S2/
+|                            └── S3/
+|                     └──Controller1
 |           └── limiter-modules/
 |                      └── S1/
 |                      └── S2/
