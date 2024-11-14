@@ -1,5 +1,5 @@
 <h1 align="center">
-<img width="40" valign="bottom" src="https://icon-library.com/images/project-icon-png/project-icon-png-8.jpg">
+<img alt="" width="40" align="bottom" src="https://icon-library.com/images/project-icon-png/project-icon-png-8.jpg">
 Pelorio Architecture Guide (in progress)
 </h1>
 <h5 align="center">A structure guide for building big applications for optimal team experience.</h5>
@@ -97,4 +97,4 @@ app-main/
 
 ```
 
-<h5 align="center"> It starts as a modular monolith with expansion in mind and easy refactoring, the idea behind this structure is that you start big but you can also split per module and UI, so most features will need two folders for the code to not only be testable but also runtime tested since you only need the basic configs for either frontend & backend  </h5>
+<h5 align="center"> It starts as a modular monolith with expansion in mind and easy refactoring, the idea behind this structure is that you start big but you can also split per module and UI, so most features will need two folders for the code to not only be testable but also runtime tested since you only need the basic configs for either frontend & backend, Suggestions are welcomed  </h5>
