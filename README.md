@@ -28,7 +28,7 @@ docs/
 | └── spec/
 scripts/
 app-main/
-|  └── app-api-gateway/
+|  └── app-api-gateway/  (Can & Should break out app-main if scale ratio permits it)
 |           └── Internal/
 |           └── External/
 |           └── Plugins/
